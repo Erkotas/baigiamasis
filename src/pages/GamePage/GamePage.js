@@ -1,3 +1,4 @@
+import '../GamePage/GamePage.css'
 import { useEffect, useState } from "react"
 import { Link, useParams } from "react-router-dom"
 import { API_URL } from "../../config"
@@ -29,7 +30,7 @@ const GamePage = () => {
    
    
 
-    const deleteUserHandler = () => {
+    const deleteGameHandler = () => {
         fetch(`${API_URL}/games/${id}`, {
         method: 'DELETE',
         })
@@ -47,15 +48,15 @@ const GamePage = () => {
     }
     
     return (
-        <div>
+        <div className="game-page">
             <h2> {title}</h2>
             <p className="description">Description: {description} </p>
             <p className="genre">Genre: {genre}</p>
             <p className="developer">Developer: {developer}</p>
 
             <div className="game-controls">
-                <button onClick={deleteUserHandler}>Remove Game</button>
-                <Link to={`/edit-game/${id}`}>Edit Game</Link>
+                <button type='button' className='btn btn-outline-light' onClick={deleteGameHandler}>Remove Game</button>
+                <Link className='btn btn-outline-light' to={`/edit-game/${id}`}>Edit Game</Link>
             </div>
         
         

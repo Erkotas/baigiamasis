@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import HeaderPage from './pages/HeaderPage/HeaderPage';

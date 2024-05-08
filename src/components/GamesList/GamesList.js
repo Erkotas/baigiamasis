@@ -9,9 +9,11 @@ const GamesList = ({ data }) => {
     ))
   
     return (
-      <ul className='games-list'>
-        {gameElements}
-      </ul>
+        <div className='list-wrapper'>
+            <ul className='games-list'>
+                {gameElements}
+            </ul>
+        </div>
     )
   }
   

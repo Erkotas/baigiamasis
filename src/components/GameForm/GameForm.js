@@ -46,7 +46,7 @@ import { API_URL } from "../../config"
         }
       
         return (
-        <form onSubmit={submitHandler}>
+        <form className="games-form" onSubmit={submitHandler}>
             <div className="form-control">
                 <label htmlFor="title">Title: </label>
                 <input type="text" name="title" id="title" value={title} onChange={titleHandler} />
