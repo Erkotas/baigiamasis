@@ -7,14 +7,15 @@ const GamePage = () => {
     const { id } = useParams()
     const [game, setGame] = useState(null)
     const [gameIsDeleted, setUserIsDeleted] = useState(false)
+
     
     useEffect(() => {
         const getData = async () => {
-        const userRes = await fetch(`${API_URL}/games/${id}`)
-        const userData = await userRes.json()
-    
-        setGame(userData)
-    
+        const res = await fetch(`${API_URL}/games/${id}`)
+        const data = await res.json()
+        
+        setGame(data)
+       
         }
     
         getData()
@@ -24,8 +25,10 @@ const GamePage = () => {
         return <p>Loading...</p>
     }
     
-    const { title, description, genre, developer } = game
-    
+    const { title, description, genre, developer} = game
+   
+   
+
     const deleteUserHandler = () => {
         fetch(`${API_URL}/games/${id}`, {
         method: 'DELETE',

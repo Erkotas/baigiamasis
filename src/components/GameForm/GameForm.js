@@ -53,7 +53,7 @@ import { API_URL } from "../../config"
             </div>
       
             <div className="form-control">
-                <label htmlFor="description">Description: </label>
+                <label htmlFor="description">Description:</label>
                 <textarea name="description" id="description" value={description} onChange={descriptionHandler}></textarea>
             </div>
       
@@ -66,7 +66,7 @@ import { API_URL } from "../../config"
                 <input type="text" name="developer" id="developer" value={developer} onChange={developerHandler} />
             </div>
       
-            <button type="submit" disabled={genre === '' ? true : false}>Add Game</button>
+            <button type="submit" disabled={title === '' ? true : false}>Add Game</button>
         </form>
         )
       }

@@ -1,44 +1,22 @@
 import { NavLink } from "react-router-dom"
-
+import '../HeaderPage/HeaderPage.css'
 const PageHeader = () => {
   return (
     <header>
         <nav>
             <ul>
-                <ul>
-                    <li>
-                        <NavLink to="/home">Home Page</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/games">Games List</NavLink>
-                    </li>    
-                    <li>
-                        <NavLink to="/add-game">Add Game</NavLink>
-                    </li>
-                    
-{/*             
                 <li>
-                    <NavLink to="/users">Users</NavLink>
+                    <NavLink to="/home">Home Page</NavLink>
                 </li>
-                    <ul>
-                        <li>
-                            <NavLink to="/create-user">Create User</NavLink>
-                        </li>
-                    </ul>
-                <li>
-                    <NavLink to="/albums">Albums</NavLink>
-                </li>
-                    <ul>
-                        <li>
-                            <NavLink to="/create-album">Create Album</NavLink>
-                        </li>
-                    </ul>
                 
                 <li>
-                    <NavLink to="/categories">Categories</NavLink>
-                </li> */}
+                    <NavLink to="/games">Games List</NavLink>
+                </li>
 
-                </ul>
+                <li>
+                    <NavLink to="/add-game">Add Game</NavLink>
+                </li>
+
             </ul>
         </nav>
     </header>

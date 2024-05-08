@@ -1,0 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+div {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    max-width: 1200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,7 +1,10 @@
-
+import '../HomePage/HomePage.css';
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <h1>FREE-TO-PLAY Games Website</h1>
+
+    </div>
   )
 }
 

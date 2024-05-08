@@ -1,0 +1,10 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
