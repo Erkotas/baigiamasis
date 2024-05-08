@@ -10,14 +10,13 @@ const PageHeader = () => {
                         <NavLink to="/home">Home Page</NavLink>
                     </li>
                     <li>
-                    <NavLink to="/games">Games List</NavLink>
-
-                    <ul>
-                        <li>
-                            <NavLink to="/create-post">Create Post</NavLink>
-                        </li>
-                    </ul>
-                </li>
+                        <NavLink to="/games">Games List</NavLink>
+                    </li>    
+                    <li>
+                        <NavLink to="/add-game">Add Game</NavLink>
+                    </li>
+                    
+{/*             
                 <li>
                     <NavLink to="/users">Users</NavLink>
                 </li>
@@ -37,7 +36,7 @@ const PageHeader = () => {
                 
                 <li>
                     <NavLink to="/categories">Categories</NavLink>
-                </li>
+                </li> */}
 
                 </ul>
             </ul>

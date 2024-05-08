@@ -5,6 +5,7 @@ import HeaderPage from './pages/HeaderPage/HeaderPage';
 import HomePage from './pages/HomePage/HomePage';
 import GamesPage from './pages/GamesPage/GamesPage';
 import GamePage from './pages/GamePage/GamePage';
+import CreateGamePage from './pages/CreateGamePage/CreateGamePage';
 
 function App() {
   return (
@@ -15,11 +16,11 @@ function App() {
         <Route path='/home' element={<HomePage />} />
         <Route path='/games' element={<GamesPage />} />
         <Route path='/games/:id' element={<GamePage />} />
+        <Route path='/add-game' element={<CreateGamePage />} />
         {/* <Route path='/posts' element={<PostsPage />} />
         <Route path='/albums' element={<AlbumsPage />} />
         <Route path='/categories' element={<CategoriesPage />} />
-        
-        <Route path='/api-project/posts/:id' element={<PostPage/>} />
+      
         <Route path='/api-project/users/:id' element={<UserPage />} />
         <Route path='/albums/:id' element={<AlbumPage />} />
 

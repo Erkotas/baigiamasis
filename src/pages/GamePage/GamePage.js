@@ -50,7 +50,7 @@ const GamePage = () => {
             <Link to={`/api-project/edit-game/${id}`}>Edit Game</Link>
         </div>
     
-        <h2>{id}. {title}</h2>
+        <h2> {title}</h2>
         <p className="description">Description: {description} </p>
         <p className="genre">Genre: {genre}</p>
 
