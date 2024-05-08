@@ -1,3 +1,4 @@
+import '../GamesPage/GamesPage.css'
 import { useEffect, useState } from "react"
 import { API_URL } from "../../config"
 import GamesList from "../../components/GamesList/GamesList"
@@ -19,7 +20,7 @@ const GamesPage = () => {
 
   return (
     <div>
-        <h1>Games List</h1>
+        <h1 className="games-list">Games List</h1>
 
         <GamesList data={games} />
     </div>

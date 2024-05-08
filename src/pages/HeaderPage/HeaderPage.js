@@ -4,17 +4,17 @@ const PageHeader = () => {
   return (
     <header>
         <nav>
-            <ul>
+            <ul className="header">
                 <li>
-                    <NavLink to="/home">Home Page</NavLink>
-                </li>
-                
-                <li>
-                    <NavLink to="/games">Games List</NavLink>
+                    <NavLink className="header" to="/home">Home Page</NavLink>
                 </li>
 
                 <li>
-                    <NavLink to="/add-game">Add Game</NavLink>
+                    <NavLink className="header" to="/games">Games List</NavLink>
+                </li>
+
+                <li>
+                    <NavLink className="header" to="/add-game">Add Game</NavLink>
                 </li>
 
             </ul>

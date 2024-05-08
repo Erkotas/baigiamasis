@@ -1,14 +1,15 @@
+import '../GamesList/GamesList.css'
 import { Link } from "react-router-dom"
 
 const GamesList = ({ data }) => {
     const gameElements = data.map(game => (
-      <li key={game.id}>
-        <Link to={`/games/${game.id}`}> {game.title} </Link>
+      <li className='games-list' key={game.id}>
+        <Link className='game-item' to={`/games/${game.id}`}> {game.title} </Link>
       </li>
     ))
   
     return (
-      <ul>
+      <ul className='games-list'>
         {gameElements}
       </ul>
     )

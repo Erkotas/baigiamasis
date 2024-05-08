@@ -1,10 +1,11 @@
-ul {
+ul.header {
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
+    list-style: none;
 }
 
-a {
+a.header {
     text-decoration: none;
     color: white;
 }

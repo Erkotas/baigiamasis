@@ -7,10 +7,13 @@ div {
     padding-right: 20px;
 }
 
-h1 {
+h1.home-page {
     max-width: 1200px;
     color: white;
+    height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: blueviolet 10px 5px 5px;
 }
