@@ -1,0 +1,49 @@
+{
+    "games": [
+    {
+        "id": "1",
+        "title": "sadasdasd",
+        "description": "asdasdasdasdasd",
+        "year": "51"
+    },
+    {
+        "id": "2",
+        "title": "sadasyuioydasd",
+        "description": "asdaop[op[sdasdasdasd",
+        "year": "57821"
+    },
+    {
+        "id": "3",
+        "title": "sadasop[op[dasd",
+        "description": "asdaopi[op[sdasdasdasd",
+        "year": "5271"
+    },
+    {
+        "id": "4",
+        "title": "sadayuioiposdasd",
+        "description": "asdayuiyuisdasdasdasd",
+        "year": "57851"
+    },
+    {
+        "id": "5",
+        "title": "sadtyutyuasdasd",
+        "description": "asdastyutyudasdasdasd",
+        "year": "54571"
+    },
+    {
+        "id": "6",
+        "title": "sadasdaasdasdsd",
+        "description": "asdasdaasdtyujisdasdasd",
+        "year": "5541"
+    }
+    ],
+    "photos": [
+    {
+        "albumId": null,
+        "id": "1",
+        "title": "accusamus beatae ad facilis cum similique qui sunt",
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    }
+    ]
+}
