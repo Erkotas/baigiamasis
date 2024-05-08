@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import HeaderPage from './pages/HeaderPage/HeaderPage';
 import HomePage from './pages/HomePage/HomePage';
 import GamesPage from './pages/GamesPage/GamesPage';
+import GamePage from './pages/GamePage/GamePage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Routes>
         <Route path='/home' element={<HomePage />} />
         <Route path='/games' element={<GamesPage />} />
+        <Route path='/games/:id' element={<GamePage />} />
         {/* <Route path='/posts' element={<PostsPage />} />
         <Route path='/albums' element={<AlbumsPage />} />
         <Route path='/categories' element={<CategoriesPage />} />

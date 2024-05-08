@@ -1,49 +1,61 @@
 {
-    "games": [
+  "games": [
     {
-        "id": "1",
-        "title": "sadasdasd",
-        "description": "asdasdasdasdasd",
-        "year": "51"
+      "id": "3",
+      "title": "PUBG: BATTLEGROUNDS",
+      "description": "Get into the action in one of the longest running battle royale games PUBG Battlegrounds.",
+      "genre": "Shooter"
     },
     {
-        "id": "2",
-        "title": "sadasyuioydasd",
-        "description": "asdaop[op[sdasdasdasd",
-        "year": "57821"
+      "id": "4",
+      "title": "Enlisted",
+      "description": "Get ready to command your own World War II military squad in Gaijin and Darkflow Software’s MMO squad-based shooter Enlisted.",
+      "genre": "Shooter"
     },
     {
-        "id": "3",
-        "title": "sadasop[op[dasd",
-        "description": "asdaopi[op[sdasdasdasd",
-        "year": "5271"
+      "id": "5",
+      "title": "Forge of Empires",
+      "description": "A free to play 2D browser-based online strategy game, become the leader and raise your city.",
+      "genre": "Strategy"
     },
     {
-        "id": "4",
-        "title": "sadayuioiposdasd",
-        "description": "asdayuiyuisdasdasdasd",
-        "year": "57851"
+      "id": "6",
+      "title": "Genshin Impact",
+      "description": "If you’ve been looking for a game to scratch that open-world action RPG itch, one with perhaps a bit of Asian flair, then you’re going to want to check out miHoYo’s Genshin Impact.",
+      "genre": "Action RPG"
     },
     {
-        "id": "5",
-        "title": "sadtyutyuasdasd",
-        "description": "asdastyutyudasdasdasd",
-        "year": "54571"
+      "id": "7",
+      "title": "Fall Guys",
+      "description": "Play the most competitive massively multiplayer party royale game featuring beans ever for free on a variety of platforms.",
+      "genre": "Battle Royale"
     },
     {
-        "id": "6",
-        "title": "sadasdaasdasdsd",
-        "description": "asdasdaasdtyujisdasdasd",
-        "year": "5541"
+      "id": "8",
+      "title": "Neverwinter",
+      "description": "A free-to-play 3D action MMORPG based on the acclaimed Dungeons & Dragons fantasy roleplaying game.",
+      "genre": "MMORPG"
+    },
+    {
+      "id": "9",
+      "title": "Diablo Immortal",
+      "description": "Built for mobile and also released on PC, Diablo Immortal fills in the gaps between Diablo II and III in an MMOARPG environment.",
+      "genre": "MMOARPG"
+    },
+    {
+      "id": "10",
+      "title": "World of Warships",
+      "description": "A 3D free to play naval action-themed MMO from the creators of World of Tanks!",
+      "genre": "Shooter"
     }
-    ],
-    "photos": [
+  ],
+  "photos": [
     {
-        "albumId": null,
-        "id": "1",
-        "title": "accusamus beatae ad facilis cum similique qui sunt",
-        "url": "https://via.placeholder.com/600/92c952",
-        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+      "albumId": null,
+      "id": "1",
+      "title": "accusamus beatae ad facilis cum similique qui sunt",
+      "url": "https://via.placeholder.com/600/92c952",
+      "thumbnailUrl": "https://via.placeholder.com/150/92c952"
     }
-    ]
+  ]
 }
