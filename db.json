@@ -4,61 +4,64 @@
       "id": "3",
       "title": "PUBG: BATTLEGROUNDS",
       "description": "Get into the action in one of the longest running battle royale games PUBG Battlegrounds.",
-      "genre": "Shooter"
+      "genre": "Shooter",
+      "developer": "KRAFTON, Inc."
     },
     {
       "id": "4",
       "title": "Enlisted",
       "description": "Get ready to command your own World War II military squad in Gaijin and Darkflow Software’s MMO squad-based shooter Enlisted.",
-      "genre": "Shooter"
+      "genre": "Shooter",
+      "developer": "Darkflow Software"
     },
     {
       "id": "5",
       "title": "Forge of Empires",
       "description": "A free to play 2D browser-based online strategy game, become the leader and raise your city.",
-      "genre": "Strategy"
+      "genre": "Strategy",
+      "developer": "InnoGames"
     },
     {
       "id": "6",
       "title": "Genshin Impact",
       "description": "If you’ve been looking for a game to scratch that open-world action RPG itch, one with perhaps a bit of Asian flair, then you’re going to want to check out miHoYo’s Genshin Impact.",
-      "genre": "Action RPG"
+      "genre": "Action RPG",
+      "developer": "miHoYo"
     },
     {
       "id": "7",
       "title": "Fall Guys",
       "description": "Play the most competitive massively multiplayer party royale game featuring beans ever for free on a variety of platforms.",
-      "genre": "Battle Royale"
+      "genre": "Battle Royale",
+      "developer": "Mediatonic"
     },
     {
       "id": "8",
       "title": "Neverwinter",
       "description": "A free-to-play 3D action MMORPG based on the acclaimed Dungeons & Dragons fantasy roleplaying game.",
-      "genre": "MMORPG"
+      "genre": "MMORPG",
+      "developer": "Cryptic Studios"
     },
     {
       "id": "9",
       "title": "Diablo Immortal",
       "description": "Built for mobile and also released on PC, Diablo Immortal fills in the gaps between Diablo II and III in an MMOARPG environment.",
-      "genre": "MMOARPG"
+      "genre": "MMOARPG",
+      "developer": "Blizzard Entertainment"
     },
     {
       "id": "10",
       "title": "World of Warships",
       "description": "A 3D free to play naval action-themed MMO from the creators of World of Tanks!",
-      "genre": "Shooter"
+      "genre": "Shooter",
+      "developer": "Wargaming"
     },
     {
-      "title": "sdasdas",
-      "description": "dasdasd",
-      "genre": "asdfsad",
-      "id": "63e2"
-    },
-    {
-      "title": "memee",
-      "description": "faina",
-      "genre": "wow",
-      "id": "5313"
+      "id": "ecd7",
+      "title": "sdafsdf",
+      "description": "asdfsadf",
+      "genre": "asdf",
+      "developer": "asdfsdaf"
     }
   ],
   "photos": [

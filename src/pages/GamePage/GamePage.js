@@ -24,7 +24,7 @@ const GamePage = () => {
         return <p>Loading...</p>
     }
     
-    const { title, description, genre } = game
+    const { title, description, genre, developer } = game
     
     const deleteUserHandler = () => {
         fetch(`${API_URL}/games/${id}`, {
@@ -45,16 +45,17 @@ const GamePage = () => {
     
     return (
         <div>
-        <div className="game-controls">
-            <button onClick={deleteUserHandler}>Remove Game</button>
-            <Link to={`/edit-game/${id}`}>Edit Game</Link>
-        </div>
-    
-        <h2> {title}</h2>
-        <p className="description">Description: {description} </p>
-        <p className="genre">Genre: {genre}</p>
+            <h2> {title}</h2>
+            <p className="description">Description: {description} </p>
+            <p className="genre">Genre: {genre}</p>
+            <p className="developer">Developer: {developer}</p>
 
-    
+            <div className="game-controls">
+                <button onClick={deleteUserHandler}>Remove Game</button>
+                <Link to={`/edit-game/${id}`}>Edit Game</Link>
+            </div>
+        
+        
         </div>
     )
     }
