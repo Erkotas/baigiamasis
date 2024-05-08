@@ -1,3 +1,8 @@
 .game-page {
     color: white;
 }
+.buttons-wrapper {
+    padding-left: 0px;
+    column-gap: 10px;
+    display: flex;
+}

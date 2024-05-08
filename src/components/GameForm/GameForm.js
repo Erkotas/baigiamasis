@@ -1,3 +1,4 @@
+import '../GameForm/GameForm.css'
 import { useEffect, useState } from "react"
 import { API_URL } from "../../config"
 
@@ -47,26 +48,34 @@ import { API_URL } from "../../config"
       
         return (
         <form className="games-form" onSubmit={submitHandler}>
-            <div className="form-control">
-                <label htmlFor="title">Title: </label>
-                <input type="text" name="title" id="title" value={title} onChange={titleHandler} />
+            <div className="col-auto">
+                <label className="col-sm-2 col-form-label" htmlFor="title">Title: </label>
+                <div className='col-sm-10'>
+                    <input type="text" name="title" id="title" value={title} onChange={titleHandler} />
+                </div>
             </div>
       
-            <div className="form-control">
-                <label htmlFor="description">Description:</label>
-                <textarea name="description" id="description" value={description} onChange={descriptionHandler}></textarea>
+            <div className="col-auto">
+                <label className='col-sm-2 col-form-label' htmlFor="description">Description:</label>
+                <div className='col-sm-10'>
+                    <textarea name="description" id="description" value={description} onChange={descriptionHandler}></textarea>
+                </div>
             </div>
       
-            <div className="form-control">
-                <label htmlFor="genre">Genre: </label>
-                <input type="text" name="genre" id="genre" value={genre} onChange={genreHandler} />
+            <div className="col-auto">
+                <label className='col-sm-2 col-form-label' htmlFor="genre">Genre: </label>
+                <div className='col-sm-10'>
+                    <input type="text" name="genre" id="genre" value={genre} onChange={genreHandler} />
+                </div>
             </div>
-            <div className="form-control">
-                <label htmlFor="developer">Developer: </label>
-                <input type="text" name="developer" id="developer" value={developer} onChange={developerHandler} />
+            <div className="col-auto">
+                <label className='col-sm-2 col-form-label' htmlFor="developer">Developer: </label>
+                <div className='col-sm-10'>
+                    <input type="text" name="developer" id="developer" value={developer} onChange={developerHandler} />
+                </div>
             </div>
       
-            <button type="submit" disabled={title === '' ? true : false}>Add Game</button>
+            <button className='btn btn-outline-light' type="submit" disabled={title === '' ? true : false}>Add Game</button>
         </form>
         )
       }

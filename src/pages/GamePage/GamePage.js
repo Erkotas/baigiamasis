@@ -54,7 +54,7 @@ const GamePage = () => {
             <p className="genre">Genre: {genre}</p>
             <p className="developer">Developer: {developer}</p>
 
-            <div className="game-controls">
+            <div className="buttons-wrapper">
                 <button type='button' className='btn btn-outline-light' onClick={deleteGameHandler}>Remove Game</button>
                 <Link className='btn btn-outline-light' to={`/edit-game/${id}`}>Edit Game</Link>
             </div>

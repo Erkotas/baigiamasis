@@ -1,5 +1,6 @@
+
 import { useEffect, useState } from "react"
-import { useAsyncError, useNavigate, useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import { API_URL } from "../../config"
 import GameForm from "../../components/GameForm/GameForm"
 
@@ -35,7 +36,7 @@ const EditGamePage = () => {
     }
   
     return (
-      <div>
+      <div className="edit-wrapper">
         {game && <GameForm editGameData={game} onGameSubmit={editGameHandler}/>}
       </div>
     )
