@@ -6,7 +6,7 @@ import { API_URL } from "../../config"
 const GamePage = () => {
     const { id } = useParams()
     const [game, setGame] = useState(null)
-    const [userIsDeleted, setUserIsDeleted] = useState(false)
+    const [gameIsDeleted, setUserIsDeleted] = useState(false)
     
     useEffect(() => {
         const getData = async () => {
@@ -34,7 +34,7 @@ const GamePage = () => {
         setUserIsDeleted(true)
     }
     
-    if (userIsDeleted) {
+    if (gameIsDeleted) {
         return (
         <div>
             <h2>Game was removed</h2>
@@ -47,7 +47,7 @@ const GamePage = () => {
         <div>
         <div className="game-controls">
             <button onClick={deleteUserHandler}>Remove Game</button>
-            <Link to={`/api-project/edit-game/${id}`}>Edit Game</Link>
+            <Link to={`/edit-game/${id}`}>Edit Game</Link>
         </div>
     
         <h2> {title}</h2>
