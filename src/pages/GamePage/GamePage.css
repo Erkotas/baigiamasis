@@ -6,3 +6,19 @@
     column-gap: 10px;
     display: flex;
 }
+h2 {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.content-wrapper {
+    display: flex;
+}
+
+a.btn.btn-outline-light.back{
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    
+}

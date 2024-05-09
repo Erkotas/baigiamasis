@@ -40,9 +40,9 @@ const GamePage = () => {
     
     if (gameIsDeleted) {
         return (
-        <div>
+        <div className='content-wrapper'>
             <h2>Game was removed</h2>
-            <Link to="/games">Go back to games page</Link>
+            <Link className='btn btn-outline-light back' to="/games">Go back to games page</Link>
         </div>
         )
     }
