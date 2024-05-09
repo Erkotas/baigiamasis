@@ -18,13 +18,13 @@ const GamesPage = () => {
     }, [])
 
 
-  return (
-    <div>
-        <h1 className="games-list">Games List</h1>
+    return (
+        <div>
+            <h1 className="games-list">Games List</h1>
 
-        <GamesList data={games} />
-    </div>
-  )
+            <GamesList data={games} />
+        </div>
+    )
 }
 
 export default GamesPage

@@ -10,15 +10,15 @@ const EditGamePage = () => {
     const [game, setGame] = useState(null)
 
     useEffect(() => {
-      const getGame = async () => {
-        const res = await fetch(`${API_URL}/games/${id}`)
-        const data = await res.json()
+        const getGame = async () => {
+            const res = await fetch(`${API_URL}/games/${id}`)
+            const data = await res.json()
 
-        setGame(data)
-   
-      }
-  
-      getGame()
+            setGame(data)
+        }
+
+        getGame()
+
     }, [id])
   
     const editGameHandler = async (gameData) => {
@@ -30,15 +30,14 @@ const EditGamePage = () => {
             },
         })
         
-
         const updatedGame = await res.json()
         navigate('/games/' + updatedGame.id)
     }
   
     return (
-      <div className="edit-wrapper">
-        {game && <GameForm editGameData={game} onGameSubmit={editGameHandler}/>}
-      </div>
+        <div className="edit-wrapper">
+            {game && <GameForm editGameData={game} onGameSubmit={editGameHandler}/>}
+        </div>
     )
   }
 

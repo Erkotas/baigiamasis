@@ -22,7 +22,7 @@ const CreateGamePage = () => {
     
     return (
         <div>
-        <GameForm onGameSubmit={newGameHandler} />
+            <GameForm onGameSubmit={newGameHandler} />
         </div>
     )
 }

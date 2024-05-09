@@ -59,10 +59,9 @@ const GamePage = () => {
                 <Link className='btn btn-outline-light' to={`/edit-game/${id}`}>Edit Game</Link>
             </div>
         
-        
         </div>
     )
-    }
+}
     
 
 export default GamePage

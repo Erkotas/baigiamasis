@@ -1,6 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
-  }
+}
+
 div {
     max-width: 1200px;
     padding-left: 20px;

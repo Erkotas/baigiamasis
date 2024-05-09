@@ -23,8 +23,8 @@ import { API_URL } from "../../config"
               setDeveloper(editGameData.developer)
             }
           }
-      
-          getUsers()
+             getUsers()
+            
         }, [editGameData])
       
         const titleHandler = event => setTitle(event.target.value)
@@ -34,16 +34,16 @@ import { API_URL } from "../../config"
         
 
         const submitHandler = async (event) => {
-          event.preventDefault()
-          
-          const games = {
-            title,
-            description,
-            genre,
-            developer,
-          }
-      
-          onGameSubmit(games)
+            event.preventDefault()
+            
+            const games = {
+                title,
+                description,
+                genre,
+                developer,
+            }
+        
+            onGameSubmit(games)
         }
       
         return (
@@ -68,6 +68,7 @@ import { API_URL } from "../../config"
                     <input type="text" name="genre" id="genre" value={genre} onChange={genreHandler} />
                 </div>
             </div>
+
             <div className="col-auto">
                 <label className='col-sm-2 col-form-label' htmlFor="developer">Developer: </label>
                 <div className='col-sm-10'>
